@@ -4,7 +4,8 @@
 }
 
 .view .piece {
-  font: 12px sans-serif;
+  font-family: menlo, sans-serif;
+  font-size: 12px;
   padding: 4px 4px 3px 3px;
 }
 
@@ -57,6 +58,7 @@
 
 .view .piece.sum, .view .piece.text {
   text-align: right;
+  color: #eee;
 }
 
 .resize {
