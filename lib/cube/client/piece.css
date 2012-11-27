@@ -56,7 +56,7 @@
   border: solid 1px #ccc;
 }
 
-.view .piece.sum, .view .piece.text {
+.view .piece.sum, .view .piece.text, .view .piece.html {
   text-align: right;
   color: #eee;
 }

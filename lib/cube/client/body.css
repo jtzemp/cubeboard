@@ -9,6 +9,10 @@ body, button {
   font: 14px "Helvetica Neue";
 }
 
+a:link {color:#26b3f7; text-decoration:none;}
+a:visited {color:#26b3f7; text-decoration:none;}
+a:hover {color:#26b3f7; text-decoration:underline;}
+
 #header {
   display: block;
   position: fixed;
