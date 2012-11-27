@@ -1,11 +1,10 @@
 .piece {
   position: absolute;
-  text-shadow: 0 1px 1px #fff;
   font-size: 12px;
 }
 
 .view .piece {
-  font: 10px sans-serif;
+  font: 12px sans-serif;
   padding: 4px 4px 3px 3px;
 }
 
@@ -118,16 +117,19 @@
 }
 
 .area path.area {
-  fill: #e7e7e7;
+  fill: #0972a5;
+  opacity: 0.5;
 }
 
 .area path.line {
   fill: none;
-  stroke: #666;
+  stroke: #26b3f7;
 }
 
 .axis {
   shape-rendering: crispEdges;
+  fill: #eee; /* text label color */
+  text-shadow: 0 1px 1px #333;
 }
 
 .axis .domain {
@@ -135,17 +137,20 @@
 }
 
 .x.axis .domain {
-  stroke: #000;
+  stroke: #666;
 }
 
 .x.axis line {
-  stroke: #fff;
+  stroke: #222;
 }
 
 .x.axis .minor {
-  stroke-opacity: .5;
 }
 
 .y.axis line {
-  stroke: #eee;
+  stroke: #222;
+}
+
+.y.axis .minor {
+
 }

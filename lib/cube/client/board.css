@@ -1,10 +1,14 @@
 .squares rect {
   fill: none;
-  stroke: #ddd;
+  stroke: #000;
 }
 
 .squares rect.black {
-  fill: #fafafa;
+  fill: #111;
+}
+
+.squares rect.white {
+  fill: #333;
 }
 
 .squares rect.shadow {
